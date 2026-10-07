@@ -1,0 +1,13 @@
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfvars
+**/*.tfvars.json
+
+# Terraform lock files are intentionally tracked
+!**/.terraform.lock.hcl
+
+# Secrets / environment files
+**/.env
+**/.env.*
