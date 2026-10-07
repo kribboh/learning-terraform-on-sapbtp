@@ -6,7 +6,7 @@ variable "globalaccount" {
 variable "project_name" {
   description = "Name of the project"
   type        = string
-  default     = "Project test"
+  default     = "Project BTP test"
 }
 
 variable "subaccount_region" {
